@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media only screen and (max-width: 1588px) {
+  .image-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1538px) {
+  .buttons-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .menu1 {
+    width: 25% !important;
+  }
+}
+
+@media only screen and (max-width: 892px) {
+  .menu1,
+  .menu-container,
+  .menu-item {
+    flex-direction: column !important;
+    width: auto !important;
+  }
+
+  .img-container {
+    display: none;
+  }
+
+  .container-md {
+    display: flex !important;
+    padding: 10px;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .header {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+  }
+
+  .delivery h1 {
+    font-size: 35px !important;
+    padding: 10px;
+  }
+
+  .header-container {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    padding: 20px;
+  }
+
+  .header-description button {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    padding: 10px 35px;
+    margin: 5px;
+  }
+
+  .button-container {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .info-container {
+    margin: 5px !important;
+  }
+
+  .btn1 {
+    padding: 10px 78px !important;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+}

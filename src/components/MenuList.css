@@ -1,0 +1,132 @@
+.tit {
+  color: #1e2329;
+  font-size: 64px;
+  font-weight: bold;
+  margin-top: 20px;
+  border-bottom: 4px solid #ff0037;
+  line-height: 1.1;
+}
+
+.menu-container {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2vw;
+  padding-bottom: 10rem;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+}
+.buttons-container {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 20px;
+  font-size: 31px;
+  border: 4px solid #1e2329;
+  padding: 10px 35px;
+  border-radius: 14px;
+}
+
+.btn:hover {
+  background-color: #1e2329;
+  color: #fff;
+  transition: 0.5s all;
+}
+
+.menu1 {
+  background-color: #fff;
+  width: 17%;
+  box-shadow: 0 0 10px 2px rgb(85, 74, 74);
+}
+
+.menu1 h2 {
+  font-size: 24px;
+  text-align: auto;
+  margin-top: 15px;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #1e2329;
+  border-bottom: 4px solid #ff0037;
+}
+
+.menu1 img {
+  width: 120px;
+  border-radius: 99px;
+  height: 120px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  border: 4px solid rgb(204, 197, 197);
+}
+
+.menu1 p {
+  margin: 10px;
+  padding-bottom: 5px;
+}
+
+.menu1 {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+}
+
+.img-menu {
+  background-color: #1e2329;
+  height: 160px;
+}
+
+.price {
+  background-color: #1e2329;
+  height: 50px;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.price h4 {
+  font-size: 24px;
+}
+
+.menum-container {
+  width: 100%;
+}
+
+.menu-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-right: auto;
+}
+
+.menu1 img:hover {
+  transform: scale3d(2.3, 2.3, 2.3);
+  transition: 0.5s ease;
+  border: none;
+  border-radius: 4px;
+  height: 170px;
+  width: 170px;
+  box-shadow: 0 0 10px 5px rgb(78, 78, 78);
+}
+
+.btn-active {
+  background-color: #1e2329;
+  color: #fff;
+  box-shadow: 0 0 20px 2px #bb3e59;
+  transition: 0.5s all;
+  opacity: 0.5;
+}

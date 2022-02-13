@@ -1,0 +1,19 @@
+.delivery {
+  display: flex;
+  justify-content: center;
+  margin: 4rem;
+}
+
+.phone {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.delivery h1 {
+  font-size: 92px;
+  font-weight: bold;
+  border-bottom: 4px solid rgb(100, 9, 9);
+}

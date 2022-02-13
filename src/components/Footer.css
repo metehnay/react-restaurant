@@ -1,0 +1,36 @@
+.footer {
+  background-color: #1e2329;
+  margin-top: 47rem;
+}
+
+.footer h2 {
+  padding-top: 2rem;
+  margin-left: 2rem;
+  font-size: 45px;
+  color: rgb(90, 75, 75);
+}
+
+.footer h3,
+.footer h4 {
+  margin-left: 2rem;
+  font-size: 25px;
+  color: #fff;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+}
+
+.footer img {
+  height: 200px;
+  margin: 50px;
+}
+
+.ikon {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 7rem;
+  bottom: 11rem;
+}
