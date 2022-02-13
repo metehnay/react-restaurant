@@ -1,6 +1,6 @@
 ![2022-02-02-00-20-32-_online-video-cutter com_](https://user-images.githubusercontent.com/80966939/152065736-c4152b56-9a7d-4682-bcd5-221a9be0eda2.gif)
 
-Live at: https://focused-aryabhata-a9d65e.netlify.app/
+DEMO: (before visual fix.) https://focused-aryabhata-a9d65e.netlify.app/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
